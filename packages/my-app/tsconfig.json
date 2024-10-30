@@ -1,0 +1,30 @@
+{
+  "extends": "./src/.umi/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      //      "@tc-lib/*": [
+      //        "../share/*/src"
+      //      ],
+      "@crm/components": [
+        //        "../components/src"
+        //              "../share/components"
+        "./node_modules/@crm/components/src"
+      ],
+      "umi/typings": [
+        "src/.umi/typings"
+      ],
+      "@@/*": [
+        "src/.umi/*"
+      ],
+      "umi": [
+        "../../../../node_modules/.pnpm/umi@4.3.27_@babel+core@7.25.8_@types+node@22.7.5_@types+react@18.3.11_eslint@8.57.1_jest@29.7_fhptiorl37qlzbki3qt52le4de/node_modules/umi"
+      ],
+      "umi/typings": [
+        "src/.umi/typings"
+      ]
+    }
+  }
+}

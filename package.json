@@ -1,0 +1,24 @@
+{
+  "name": "pnpm-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pnpm -F \"app-*\" -r --stream run start"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.0.0",
+    "prettier-plugin-packagejson": "^2.2.18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

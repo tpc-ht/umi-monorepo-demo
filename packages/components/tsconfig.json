@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "@@/*": [
+        ".dumi/tmp/*"
+      ],
+      "@crm/components": [
+        "src"
+      ],
+      "@crm/components/*": [
+        "src/*",
+        "*"
+      ]
+    }
+  },
+  "include": [
+    ".dumirc.ts",
+    "src/**/*",
+    "typings.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "typings",
+    "test",
+    "docs",
+    "tests"
+  ]
+}

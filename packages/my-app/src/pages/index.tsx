@@ -1,4 +1,5 @@
 import yayJpg from "@/assets/yay.jpg";
+// import {Button, CRM, Foo} from "@crm/components";
 import {Button, CRM, Foo} from "@crm/components";
 
 console.log("CRM", CRM)
@@ -16,8 +17,7 @@ export default function HomePage() {
       <h1>
         0------------------------------
       </h1>
-      {/*<Foo title={"hello"}/>*/}
-      <Foo title={"hello word"}/>
+      <Foo title={"hello"}/>
       <h1>
         0------------------------------
       </h1>

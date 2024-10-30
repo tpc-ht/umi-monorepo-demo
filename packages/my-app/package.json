@@ -10,10 +10,6 @@
     "setup": "umi setup",
     "start": "npm run dev"
   },
-  "peerDependencies": {
-    "react": ">=18.0.0",
-    "react-dom": ">=18.0.0"
-  },
   "dependencies": {
     "@ant-design/icons": "^4.6.0",
     "@crm/components": "workspace:^",
